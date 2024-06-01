@@ -1,0 +1,11 @@
+### PyCharm IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+out/
+/dist/
+.vscode/
+.kotlin
+node_modules
+.DS_Store
