@@ -1,0 +1,19 @@
+services:
+  mysql:
+    image: mysql:8.0.33
+    container_name: db
+    restart: always
+    ports:
+      - "3306:3306"
+    environment:
+      MYSQL_USER: master
+      MYSQL_PASSWORD: 1234
+      MYSQL_DATABASE: fastapi
+      MYSQL_ROOT_PASSWORD: 1234
+      TZ: "Asia/Seoul"
+    volumes:
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql
+      - mysqldb:/var/lib/mysql
+
+volumes:
+  mysqldb:

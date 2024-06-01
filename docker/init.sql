@@ -1,0 +1,2 @@
+CREATE DATABASE fastapi_test;
+GRANT ALL PRIVILEGES ON fastapi_test.* TO master@'%' WITH GRANT OPTION;
