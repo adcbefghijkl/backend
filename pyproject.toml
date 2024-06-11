@@ -2,17 +2,16 @@
 name = "backend"
 version = "0.1.0"
 description = ""
-authors = ["kimzerovirus <kimzerovirus@gmail.com>"]
+authors = ["kimzerovirus <zerovirus96@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.9"
+python = "^3.12.3"
 fastapi = "^0.111.0"
 uvicorn = "^0.30.0"
 alembic = "^1.13.1"
 sqlalchemy = "^2.0.30"
 pymysql = "^1.1.1"
-dependency-injector = "^4.41.0"
 
 
 [tool.poetry.group.dev.dependencies]

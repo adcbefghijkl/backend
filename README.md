@@ -16,6 +16,16 @@ poetry shell
 poetry install
 ```
 
+### init alembic
+```shell
+alembic init migrations
+```
+
+### create alembic revision
+```shell
+alembic revision --autogenerate
+```
+
 ### Apply alembic revision
 ```shell
 alembic upgrade head
