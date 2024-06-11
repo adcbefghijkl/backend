@@ -1,8 +1,8 @@
 from datetime import datetime
-from app.user.model import User
+from app.user.user_model import User
 from sqlalchemy.orm import Session
 
-from app.user.schema import UserCreate, UserModify
+from app.user.user_schema import UserCreate, UserModify
 
 
 def get_user_list(db: Session):
